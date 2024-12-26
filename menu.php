@@ -3,7 +3,7 @@
 <h1><a href="home.html">All About Cats</a></h1>
 <nav>
     <ul>
-        <li><a href="home.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="aHealingPurr.html">A healing purr</a></li>
         <li><a href="sphynxCats.html">Sphynx Cats</a></li>
         <li><a href="catColds.html">Cat Colds</a></li>
