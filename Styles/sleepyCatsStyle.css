@@ -1,0 +1,22 @@
+#sleepyCat{
+    color: #B515C3;
+    text-shadow:
+   -1px -1px 0 #C9C9C9,  
+    1px -1px 0 #C9C9C9,
+    -1px 1px 0 #C9C9C9,
+     1px 1px 0 #C9C9C9;
+}
+
+#cat {
+    float: left;
+    text-align: center;
+}
+
+#sleep{
+    text-align: center;
+}
+
+#catSleeping{
+    width: 30vw;
+    min-width: 300px;
+}
