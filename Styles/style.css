@@ -1,0 +1,156 @@
+body {
+    background-color: #EDEAFF;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main a {
+    text-decoration: none;
+    color: #B515C3;
+}
+
+main a:hover {
+    animation-name: changeColor;
+    animation-duration: 0.5s;
+    color: #db54e8;
+}
+
+main a:active {
+    color: rgb(73, 142, 73) !important;
+}
+
+header h1 a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    flex-direction: column;
+    margin: 0px;
+    font-size: 1.5em;
+    border-top: 7px solid #C9C9C9;
+    border-bottom: 7px solid #C9C9C9;
+    background-color: #D9D9D9;
+    padding: 10px;
+}
+
+nav li:first-child {
+    border-left: 7px solid #C9C9C9;
+}
+
+nav li {
+    border-right: 2px solid #C9C9C9;
+}
+
+nav li:last-child {
+    border-right: 7px solid #C9C9C9;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Indie Flower', serif;
+    transition: 2s;
+}
+
+nav li a:hover {
+    color: blue;
+    font-size: 1.2em;
+}
+
+header h1 {
+    font-family: 'Indie Flower', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+p {
+    font-size: 1.5em;
+}
+
+footer p {
+    font-size: 1em;
+    clear: both;
+}
+
+#next {
+    clear: both;
+    text-align: center;
+}
+
+@keyframes grow {
+    0% {
+        font-size: 1em;
+    }
+
+    100% {
+        font-size: 1.2em;
+    }
+}
+
+@keyframes changeColor {
+    0% {
+        color: #B515C3;
+    }
+
+    100% {
+        color: #db54e8;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    figure {
+        float: none;
+        text-align: center;
+    }
+
+    main{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+    p {
+        clear: both;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        
+        text-align: center;
+        justify-content: right;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    nav li {
+        border-left: 7px solid #C9C9C9;
+        border-right: 7px solid #C9C9C9;
+        border-top: 0;
+    }
+
+    nav li:first-child{
+        border-top: 7px solid #C9C9C9;
+    }
+
+    
+
+
+}
