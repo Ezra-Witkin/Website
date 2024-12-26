@@ -1,0 +1,47 @@
+nav li:first-child a{
+    color: #B515C3;
+    text-shadow:
+   -1px -1px 0 #C9C9C9,  
+    1px -1px 0 #C9C9C9,
+    -1px 1px 0 #C9C9C9,
+     1px 1px 0 #C9C9C9;
+}
+
+#cat section{
+    width: 500px;
+    height: 375px;
+    background-image: url("../images/AdorableCat.jpg");
+    background-size:100%;
+    box-shadow:  inset 0px 0px 20px 50px #EDEAFF;
+    border: solid 1px #EDEAFF;
+}
+
+#cat figcaption{
+    text-align: center;
+}
+
+#cat {
+    float: left;
+}
+
+body p{
+    padding-right: 5%;
+}
+
+main li{
+    list-style-position: inside;
+    list-style-type: circle;
+    font-size: 1.5em;
+}
+
+#Juniper{
+    width: 34vw;
+    min-width: 300px;
+}
+
+@media screen and (max-width: 1150px)  {   
+    ul, main h2{
+        clear:both;
+    }
+    
+}
